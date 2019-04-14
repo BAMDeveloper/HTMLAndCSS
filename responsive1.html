@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <!--
+            name="viewport" >> visible area on the PC screen, or phone screen or other device..
+            content="width=device-width, >> contornar situação onde as telas são adversas (dispositivos pequenos ou mobiles) uma forma de ficar bom
+            inital-scale=1.0"
+        -->
+        <meta charset="utf-8" name="viewport" content="width=device-width, inital-scale=1.0">
+        <title> Second responsive</title>
+        <style>
+            @media (min-width: 700px){
+                h1::before{
+                    content: "Welcome to my web page responsive. Bienvenue sur ma page web responsive";
+                }
+            }
+            @media (max-width: 699px){
+                h1::before{
+                    content: "Welcome! Bienvenue!";
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1></h1>
+    </body>
+</html>

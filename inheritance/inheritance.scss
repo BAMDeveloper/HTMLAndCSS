@@ -1,0 +1,31 @@
+
+
+// Create father class - generic with % symbol is an define un template, or are going inheritance
+
+// Generic message - Father class
+%message{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+// Specific Classes - Son clasess or @extend class of the class father
+// Using styling of the class %message plus the background-color defined
+.sucess{
+    @extend %message;
+    background-color: green;
+}
+
+.warning{
+    @extend %message;
+    background-color: orange;
+}
+
+.error{
+    @extend %message;
+    background-color: red;
+}

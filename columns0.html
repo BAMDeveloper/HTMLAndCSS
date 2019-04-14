@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Column bootstrap</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!--
+            This file is a bootstrap grid layout
+
+            .row this is special class of the Bootstrap library of page that is divide into 12 individual columns
+            .row > div >> if exists divs child of the class .row will be stalying
+            col-3 >> three columns of the div; If have four divs when each div have three columns, therefore: 4 divs with 3 columns: 4 * 3 = 12 colums of the row
+        -->
+        <style>
+            .row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    This is a section.
+                </div>
+                <div class="col-3">
+                    This is another section.
+                </div>
+                <div class="col-3">
+                    This is a third section.
+                </div>
+                <div class="col-3">
+                    This is a fourth section.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

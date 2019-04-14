@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Print</title>
+        <!--
+            @media means create a media query, apply CSS styling only in particular situations
+            in case below, is in the media print and when printing the page the third para not will be display
+            .section-only >> access the class screen-only of third paragraphy
+            display: none >> parapraphy not display/ not visible
+        -->
+        <style>
+            @media print {
+                .screen-only {
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <p>This is paragraphy</p>
+        <p>This is another paragraphy</p>
+        <p class="screen-only">This is paragraphy won't apper when you print this page.</p>
+    </body>
+</html>

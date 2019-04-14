@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Column bootstrap</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!--
+            This file is a bootstrap grid layout other mode of divide web page ( first mode is do with Flexbox)
+
+            .container is a bootstrap class
+            .row this is special class of the Bootstrap library of page that is divide into 12 individual columns
+            .row > div >> if exists divs child of the class .row will be stalying
+            col-lg-3 >> column large 3 >> three columns into each div if the screen of the device is large, what typical PCs or laptops
+            col-sm-6 >> column small 6 >> six columns/ half the row into each div if the screen of the device is large, what typical PCs or laptops
+        -->
+        <style>
+            .row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    This is a section.
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    This is another section.
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    This is a third section.
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    This is a fourth section.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

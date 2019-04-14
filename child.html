@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Child</title>
+        <!-- that will have the style formatting IF il is immediate child, or il directly descendant-->
+        <style media="screen">
+            ol > li {
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li>List of item one</li>
+            <li>List of item two</li>
+            <ul>
+                <li>Sublist of item one</li>
+                <li>Sublist of item one</li>
+            </ul>
+            <li>List of item three</li>
+        </ol>
+    </body>
+</html>

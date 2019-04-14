@@ -1,0 +1,21 @@
+
+/*
+
+Everytime that necessary alter a parameter of the tags bellow, for example,
+is necessary altering in each tag the value of the parameter.
+
+In this case, that is a new language: built on top CSS called SAAS
+SASS is a extension of CSS, with more power and flexibility.
+SCSS is the extension for a SASS file.
+
+*/
+
+ul{
+    font-size: 14px;
+    color: red;
+}
+
+ol{
+    font-size: 18px;
+    color: red;
+}

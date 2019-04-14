@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>Grid</title>
+        <!--
+            .grid >> class grid of first div
+            display: grid; >> to be page to be displaying in grid form
+            padding: 20px; >> spacing on the inside de div
+            grid-column-gap: 20px; >> space between individual columns of the grid
+            grid-row-gap: 10 px; >> space between individual rows of the grid
+            grid-template-columns: 200px 200px auto; >> default template 200px for first and second columns and automatic for third column
+        -->
+
+        <style>
+            .grid{
+                background-color: green;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10 px;
+                grid-template-columns: auto auto auto;
+            }
+
+            .grid-item{
+                background-color: white;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+            <div class="grid-item">10</div>
+            <div class="grid-item">11</div>
+            <div class="grid-item">12</div>
+        </div>
+    </body>
+</html>

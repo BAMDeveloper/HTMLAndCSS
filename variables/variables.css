@@ -1,0 +1,27 @@
+/*
+
+Everytime that necessary alter a parameter of the tags bellow, for example,
+is necessary altering in each tag the value of the parameter.
+
+In this case, that is a new language: built on top CSS called SAAS
+SASS is a extension and a functionality of the CSS, with more power and flexibility,
+but not is rendering in web browsers. therefore is necessary convert file SCSS
+(SASS) file in CSS file with command line on the terminal, for example:
+
+    sass variables.scss variables.css
+
+and it's going to compile into a CSS file for the
+web browser be able to understand.
+
+SCSS is the extension for a SASS file.
+
+*/
+ul {
+  font-size: 14px;
+  color: green; }
+
+ol {
+  font-size: 18px;
+  color: green; }
+
+/*# sourceMappingURL=variables.css.map */
